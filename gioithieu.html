@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>Mik</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="assets/images/favicon (1).png" type="image/x-icon">
+	<link rel="stylesheet" href="assets/Plugin/boostrap/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/stylegioithieu.css">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> -->
+	<link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/Plugin/swiper/dist/css/swiper.min.css">
+	<script src="assets/Plugin/js/jquery-3.2.1.min.js"></script>
+	<script src="assets/Plugin/js/bootstrap.js"></script>
+	<script src="assets/Plugin/swiper/dist/js/swiper.min.js"></script>
+</head>
+<body>
+	<img src="assets/images/page-bg .png" class="img-fix">
+	<div class="header">
+		<div class="home-header">
+			<div class="header-top">
+				<div class="row">
+					<div class="col-md-12 " >
+						 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>                        
+					      </button>
+							<h1><a href="#"><img src="assets/images/logo.png" alt="" ></a></h1>
+							<div class="header-icon">
+								<ul class="header-eng">
+									<li>
+										<a href="">VN</a>
+									</li>
+								</ul>
+								<form action="" method="" class="search-form">
+		                            <button class="header-submit" type="submit" ><i class="fa fa-search" aria-hidden="true"></i></button>
+		                            <input class="header-input" type="text" placeholder="Tìm kiếm"/>
+	                       		</form>
+	                       		<a href="#" class="header-mail"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+								
+							</div>
+					</div>
+				</div>
+			</div> <!-- End header top -->
+			<div class="header-nav">
+				<div class="collapse navbar-collapse" id="myNavbar">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="index.html" class="active-a">TRANG TRỦ</a></li>
+							<li><a href="gioithieu.html" >GIỚI THIỆU</a></li>
+							<li><a href="duan.html" >DỰ ÁN</a></li>
+							<li><a href="news.html" >TIN TỨC</a></li>
+							<li><a href="thuvien.html" >THƯ VIỆN</a></li>
+							<li><a href="lienhe.html" >LIÊN HỆ</a></li>
+						</ul>
+				</div>			
+			</div><!-- End header-nav -->
+		</div> <!-- End-home -->
+
+		<div class="swiper-container" id="header_slide">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="item active">
+					     <img src="assets/images/slide-1.png" alt="Chania">
+					     <div class="carousel-caption">
+					        <p class="park">Thành phố ven Sông</p>
+					        <h3>PARK RIVERSIDE</h3>
+					    	<p class="agileinfo">XEM THÊM</p>
+      					</div>
+    				</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item active">
+					     <img src="assets/images/slide-2.png" alt="Chania">
+					     <div class="carousel-caption">
+					        <p class="park">Thành phố ven Sông</p>
+					        <h3>PARK RIVERSIDE PREEMIUM</h3>
+					    	<p class="agileinfo">XEM THÊM</p>
+      					</div>
+    				</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="item active">
+					     <img src="assets/images/slide-3.png" alt="Chania">
+					     <div class="carousel-caption">
+					        <p class="park">Thành phố ven Sông</p>
+					        <h3>MONVENPICK RESORT WAVERLY PHÚ QUỐC</h3>
+					    	<p class="agileinfo">XEM THÊM</p>
+      					</div>
+    				</div>
+				</div>
+			</div>
+			<div class="swiper-pagination"></div>
+		</div> <!-- end swiper-container -->
+		<script>
+				jQuery(document).ready(function($){
+					var header = new Swiper('#header_slide',{
+						pagination: '#header_slide .swiper-pagination',
+						slidesPerView: 1,
+						 autoplay:3000,
+					});
+				});	
+		</script>
+	</div> <!-- End HEader -->
+
+<!-- Begin Main -->
+<div class="main">
+	<div class="intro">
+		<div class="container">
+			<div class="row">
+				<div class=" col-md-6 col-sm-12 col-xs-12">
+					<div class="swiper-container" id="intro_slide">
+						<div class="swiper-wrapper">
+						    <div class="swiper-slide">
+						       <img src="assets/images/slide-5.png" alt="Los Angeles">
+						   	</div>
+						    <div class="swiper-slide">
+						       <img src="assets/images/slide-4.png" alt="Los Angeles">
+						   	</div>
+						</div>
+						    <!-- Add Pagination -->
+						<div class="swiper-pagination"></div>
+  					</div>
+				</div>
+
+				<div class="col-md-6 col-sm-12 col-xs-12">
+					<h2 class="intro-quickwiew">SƠ LƯỢC VỀ CÔNG TY</h2>
+					<div class="describe">
+						<p>Công ty TNHH Tập đoàn MIK GROUP Việt Nam (viết tắt là MIKGROUP) hoạt động chuyên sâu trong lĩnh vực Đầu tư, Kinh doanh và Phát triển Bất động sản tại Việt Nam.</p>
+						<p>Với đội ngũ quản lý, chuyên gia giàu kinh nghiệm, MIKGROUP đang phối hợp với nhiều đối tác uy tín hàng đầu trong nước và quốc tế về thiết kế, giám sát, thi công và quản lý bất động sản để xây dựng & phát triển các dự án bất động sản cao cấp.</p>
+						<p>
+Imperia Garden, Imperia Sky Garden tại Hà Nội; Imperia An Phú, The Ascott Waterfront Saigon, The Park Residence, Villa Park, Park Riverside, River Park tại TP Hồ Chí Minh; Mövenpick Resort Phú Quốc, Crowne Plaza Phú Quốc Starbay …</p>
+						</div>
+				
+				</div>
+			</div> <!-- End row -->
+		</div> <!-- End container -->
+		<script>
+				jQuery(document).ready(function($){
+					var intro = new Swiper('#intro_slide',{
+						pagination: '#intro_slide .swiper-pagination',
+						slidesPerView: 1,
+						autoplay:3000,
+					});
+				});	
+		</script>
+	</div> <!-- End Intro -->
+	<div class="vision">
+		<div class="container">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="vision-header">
+					<h3 class="vision-header-title"> TẦM NHÌN</h3>
+					<p>Với tầm nhìn dài hạn và quan điểm phát triển bền vững, MIKGroup mong muốn đem đến cho thị trường những sản phẩm dịch vụ, tiện ích và trải nghiệm hoàn toàn mới về không gian sống hiện đại với chất lượng công trình  và dịch vụ theo tiêu chuẩn quốc tế. Là một doanh nghiệp kinh tế phát triển vững mạnh, MIKGroup định vị là 1 trong những doanh nghiệp phát</p>
+				</div>
+				<div class="vision-line"></div>
+				<div class="mission-header">
+					<h3 class="mission-header-title">SỨ MỆNH</h3>
+					<p>Kiến tạo những công trình với đẳng cấp và chất lượng vượt trội, đồng thời, xây dựng nên một thương hiệu Việt bền vững, có uy tín, đẳng cấp trong khu vực và quốc tế.</p>
+				</div>
+			</div>
+		</div><!--  end container -->
+	</div> <!-- End vision -->
+	<!-- begin oli -->
+	<div class="oli">
+	<h3>DẤU ẤN PHÁT TRIỂN</h3>
+	<div class="container">
+		<div class="oli-round-left"></div>
+		<div class="oli-round-right"></div>
+		<div class="swiper-container" id="oli_slide">
+						<div class="swiper-wrapper">
+							 <div class="swiper-slide">
+							 		<div class="text-one">
+						      		<p>Khởi công dự án khu biệt thự biệt lập kiểu Mỹ - Villa Park tại Quận 9, TP. HCM</p>
+						      		</div>
+						      	<div class="oli-img">
+						      		<img src="assets/images/img-gt/oli-5.jpg" alt="" class="img-line">
+						      	</div>
+						      
+							</div>
+						    <div class="swiper-slide swap-item">
+						    	<div class="text">
+						      		<p>Khởi công dự án khu biệt thự biệt lập kiểu Mỹ - Villa Park tại Quận 9, TP. HCM</p>
+						      	</div>
+						      	<div class="oli-img-bot">
+						      		<img src="assets/images/img-gt/oli-1.png" alt="">
+						      	</div>
+						      	
+							</div>
+							 <div class="swiper-slide">
+							 		<div class="text-one">
+						      		<p>Khởi công dự án khu biệt thự biệt lập kiểu Mỹ - Villa Park tại Quận 9, TP. HCM</p>
+						      	</div>
+						      	<div class="oli-img">
+						      		<img src="assets/images/img-gt/oli-2.png" alt="" class="img-line">
+						      	</div>
+						      
+							</div>
+							 <div class="swiper-slide">
+							 	<div class="text">
+						      		<p>Khởi công dự án khu biệt thự biệt lập kiểu Mỹ - Villa Park tại Quận 9, TP. HCM</p>
+						      	</div>
+						      	<div class="oli-img-bot">
+						      		<img src="assets/images/img-gt/oli-4.png" alt="">
+						      	</div>
+						      	
+							</div>
+							 <div class="swiper-slide">
+	
+						      	<div class="text-one">
+						      		<p>Khởi công dự án khu biệt thự biệt lập kiểu Mỹ - Villa Park tại Quận 9, TP. HCM</p>
+						      	</div>
+						      	<div class="oli-img">
+						      		<img src="assets/images/img-gt/oli-3.png" alt="">
+						      	</div>
+							</div>
+							 <div class="swiper-slide">
+							 	 <div class="text">
+						      		<p>Khởi công dự án khu biệt thự biệt lập kiểu Mỹ - Villa Park tại Quận 9, TP. HCM</p>
+						      	</div>
+						      	<div class="oli-img-bot">
+						      		<img src="assets/images/img-gt/oli-7.png" alt="">
+						      	</div>
+						     
+							</div>
+						    <!-- Add Pagination -->
+														
+  						</div>
+  						<div class="line"></div>
+  						
+	</div>
+		<div class="btn download__btn"><a href="#">Download hồ sơ công ty</a></div>
+		<div class="btn download__btn"><a href="#">Ban Lãnh đạo</a></div>					
+		<script>
+				jQuery(document).ready(function($){
+					
+					var oli = new Swiper('#oli_slide',{
+						pagination: '#oli_slide .swiper-pagination',
+						slidesPerView: 5,
+
+						 // autoplay:3000
+						 // 
+						 breakpoints:{
+    			  320: {
+							 slidesPerView: 2,
+							 
+						},
+				    // when window width is <= 480px
+				    480: {
+				      slidesPerView: 2,
+				    
+				    	},
+
+				    // when window width is <= 640px
+				  
+	 										 }
+								});
+								});	
+		</script>
+		<div class="swiper-button-next page-btn-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+    	<div class="swiper-button-prev page-btn-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>	
+	</div> <!-- end container -->
+
+</div><!--  end oli -->
+<!--  end oli -->
+<!-- Begin Reward -->
+	<div class="reward">
+		<div class="container">
+			<h3>GIẢI THƯỞNG</h3>
+			<div class="swiper-container" id="reward_slide">
+			    <div class="swiper-wrapper">
+			      <div class="swiper-slide">
+						<div class="item">
+							<p class="year">2017</p>
+							<div class="all-img">
+								<img src="assets/images/reward-1.png" alt=" " class="img-responsive"> 
+								<div class="middle">
+								    <div class="text"><h2><i class="fa fa-search" aria-hidden="true"></i></h2></div>
+								</div>	
+							</div>
+							<div class="title-info">
+								<h5 class="title">
+		                			<a href="">"Inovative Developer" - Dot Property Southeast Asia Best of the Best Award 2017</a>
+		             			</h5>
+								<p class="time">
+		                		<i class="fa fa-clock-o" aria-hidden="true"></i> 10.2017
+              					</p>
+							</div>
+						</div> <!-- end item -->
+			      </div>
+			      <div class="swiper-slide">
+						<div class="item">
+							<p class="year">2017</p>
+							<div class="all-img">
+								<img src="assets/images/reward-2.png" alt=" " class="img-responsive">
+								<div class="middle">
+								    <div class="text"><h2><i class="fa fa-search" aria-hidden="true"></i></h2></div>
+								</div>	 	
+							</div>
+							<div class="title-info">
+								<h5 class="title">
+		                			<a href="#">"Inovative Developer" - Dot Property Southeast Asia Best of the Best Award 2017</a>
+		             			</h5>
+								<p class="time">
+		                		<i class="fa fa-clock-o" aria-hidden="true"></i> 10.2017
+              					</p>
+							</div>
+						</div> <!-- end item -->
+			      </div>
+			      <div class="swiper-slide">
+						<div class="item">
+							<p class="year">2017</p>
+							<div class="all-img">
+								<img src="assets/images/reward-3.png" alt=" " class="img-responsive">
+								<div class="middle">
+								    <div class="text"><h2><i class="fa fa-search" aria-hidden="true"></i></h2></div>
+								</div>	 	
+							</div>
+							<div class="title-info">
+								<h5 class="title">
+		                			<a href="#">"Inovative Developer" - Dot Property Southeast Asia Best of the Best Award 2017</a>
+		             			</h5>
+								<p class="time">
+		                		<i class="fa fa-clock-o" aria-hidden="true"></i> 10.2017
+              					</p>
+							</div>
+						</div> <!-- end item -->
+			      </div>
+			       <div class="swiper-slide">
+						<div class="item">
+							<p class="year">2017</p>
+							<div class="all-img">
+								<img src="assets/images/reward-1.png" alt=" " class="img-responsive">
+								<div class="middle">
+								    <div class="text"><h2><i class="fa fa-search" aria-hidden="true"></i></h2></div>
+								</div>	 	
+							</div>
+							<div class="title-info">
+								<h5 class="title">
+		                			<a href="">"Inovative Developer" - Dot Property Southeast Asia Best of the Best Award 2017</a>
+		             			</h5>
+								<p class="time">
+		                		<i class="fa fa-clock-o" aria-hidden="true"></i> 10.2017
+              					</p>
+							</div>
+						</div> <!-- end item -->
+			      </div>
+			    </div> <!-- end swiper wrapper -->
+			 </div> <!-- End swiper container -->
+
+		</div> <!-- end container -->
+		<script>
+				jQuery(document).ready(function($){
+					
+					var reward = new Swiper('#reward_slide',{
+						pagination: '#reward_slide .swiper-pagination',
+						slidesPerView: 3,
+						 // autoplay:3000,
+						 breakpoints:{
+    
+										    320: {
+										      slidesPerView: 1,
+										      spaceBetween: 10
+										   		},
+										    // when window width is <= 480px
+										    480: {
+										      slidesPerView: 1,
+										      spaceBetween: 20
+										    	},
+										    // when window width is <= 640px
+										  
+							 		 }
+																});
+														});	
+		</script>
+	</div> <!-- End reward -->
+<!-- Begin Partner -->
+<div class="partner">
+	<div class="container">
+		<h3>ĐỐI TÁC CHIẾN LƯỢC</h3>
+		<div class="partner-build">
+				<div class="row">
+					<div class="col-md-2">
+						<div class="build-title">Nhà thầu xây dựng
+						</div>
+					</div>
+					<div class="col-md-10">
+						<div class="partner-slide">
+							<div class="swiper-container" id="partner">
+							    <div class="swiper-wrapper">
+								      <div class="swiper-slide">
+								      		<img src="assets/images/img-gt/partner-1.png">
+								      </div>
+								       <div class="swiper-slide">
+								      		<img src="assets/images/img-gt/partner-2.png">
+								      </div>
+								       <div class="swiper-slide" style="text-align: center;">
+								      		<img src="assets/images/img-gt/partner-3.png">
+								      </div>
+								       <div class="swiper-slide">
+								      		<img src="assets/images/img-gt/partner-4.png">
+								      </div>
+							    </div>
+					       </div>	
+						</div><!-- End partner-slide -->
+						<div class="swiper-button-next partner-btn-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+			    		<div class="swiper-button-prev partner-btn-prev	"><i class="fa fa-angle-left" aria-hidden="true"></i>
+			    		</div>	
+					</div>
+			</div><!-- end row -->
+		</div> <!-- end partner-build -->
+		<div class="partner-build">
+				<div class="row">
+					<div class="col-md-2">
+						<div class="build-title">Đơn vị bảo trợ tài chính
+						</div>
+					</div>
+					<div class="col-md-10">
+						<div class="partner-slide">
+							<div class="swiper-container" id="partner_two">
+							    <div class="swiper-wrapper">
+								      <div class="swiper-slide">
+								      		<img src="assets/images/img-gt/partner-5.png">
+								      </div>
+								       <div class="swiper-slide">
+								      		<img src="assets/images/img-gt/partner-66.png">
+								      </div>
+								       <div class="swiper-slide">
+								      		<img src="assets/images/img-gt/partner-77.png">
+								      </div>
+								       <div class="swiper-slide">
+								      		<img src="assets/images/img-gt/partner-8.png">
+								      </div>
+							    </div>
+					       </div>	
+						</div><!-- End partner-slide -->
+						<div class="swiper-button-next partner-btn-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+			    		<div class="swiper-button-prev partner-btn-prev	"><i class="fa fa-angle-left" aria-hidden="true"></i>
+			    		</div>	
+					</div>
+			</div><!-- end row -->
+		</div> <!-- end partner-build -->
+		<div class="partner-build">
+				<div class="row">
+					<div class="col-md-2">
+						<div class="build-title">Đơn vị tư vấn thiết kế
+						</div>
+					</div>
+					<div class="col-md-10">
+						<div class="partner-slide">
+							<div class="swiper-container" id="partner_three">
+							    <div class="swiper-wrapper">
+								      <div class="swiper-slide">
+								      		<img src="assets/images/img-gt/partner-9.png">
+								      </div>
+								       <div class="swiper-slide">
+								      		<img src="assets/images/img-gt/partner-10.png">
+								      </div>
+							    </div>
+					       </div>	
+						</div><!-- End partner-slide -->
+						<div class="swiper-button-next partner-btn-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+			    		<div class="swiper-button-prev partner-btn-prev	"><i class="fa fa-angle-left" aria-hidden="true"></i>
+			    		</div>	
+					</div>
+			</div><!-- end row -->
+		</div> <!-- end partner-build -->
+		<div class="partner-build">
+				<div class="row">
+					<div class="col-md-2">
+						<div class="build-title">Đơn vị quản lý & vận hành
+						</div>
+					</div>
+					<div class="col-md-10">
+						<div class="partner-slide">
+							<div class="swiper-container" id="partner_four">
+							    <div class="swiper-wrapper">
+								      <div class="swiper-slide">
+								      		<img src="assets/images/img-gt/partner-11.png">
+								      </div>
+								       <div class="swiper-slide">
+								      		<img src="assets/images/img-gt/partner-122.png">
+								      </div>
+								       <div class="swiper-slide">
+								      		<img src="assets/images/img-gt/partner-13.png">
+								      </div>
+							    </div>
+					       </div>	
+						</div><!-- End partner-slide -->
+						<div class="swiper-button-next partner-btn-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+			    		<div class="swiper-button-prev partner-btn-prev	"><i class="fa fa-angle-left" aria-hidden="true"></i>
+			    		</div>	
+					</div>
+			</div><!-- end row -->
+		</div> <!-- end partner-build -->
+	</div> <!-- end container -->
+	<script>
+    var partner= new Swiper('#partner', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      slidesPerView: 4,
+      breakpoints:{
+    			  320: {
+							 slidesPerView: 2,
+							 spaceBetween: 10
+						},
+				    // when window width is <= 480px
+				    480: {
+				      slidesPerView: 2,
+				      spaceBetween: 20
+				    	},
+				    // when window width is <= 640px
+				    768: {
+				      slidesPerView: 2,
+				      spaceBetween: 20
+				    	},
+	 		 }
+    });
+  </script>
+  <script>
+    var partner_two= new Swiper('#partner_two', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      slidesPerView: 4,
+       breakpoints:{
+    			  320: {
+							 slidesPerView: 2,
+							 spaceBetween: 10
+						},
+				    // when window width is <= 480px
+				    480: {
+				      slidesPerView: 2,
+				      spaceBetween: 20
+				    	},
+				    // when window width is <= 640px
+				  
+	 		 }
+    });
+  </script>
+  <script>
+    var partner_three= new Swiper('#partner_three', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      slidesPerView: 4,
+       breakpoints:{
+    			  320: {
+							 slidesPerView: 2,
+							 spaceBetween: 10
+						},
+				    // when window width is <= 480px
+				    480: {
+				      slidesPerView: 2,
+				      spaceBetween: 20
+				    	},
+				    // when window width is <= 640px
+				  
+	 		 }
+    });
+  </script>
+   <script>
+    var partner_four= new Swiper('#partner_four', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      slidesPerView: 4,
+       breakpoints:{
+    			  320: {
+							 slidesPerView: 2,
+							 spaceBetween: 10
+						},
+				    // when window width is <= 480px
+				    480: {
+				      slidesPerView: 2,
+				      spaceBetween: 20
+				    	},
+				    // when window width is <= 640px
+				  
+	 		 }
+    });
+  </script>
+</div> <!-- End partner -->
+<div class="contact">
+		<div class="container">
+			<div class="icon-contact">
+				<span><a href=""><i class="fa fa-camera" aria-hidden="true"></i></a></span>
+				<span><a href=""><i class="fa fa-youtube" aria-hidden="true"></i></a></span>
+				<span><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></span>
+				<span><a href=""><i class="fa fa-camera" aria-hidden="true"></i></a></span>
+				<span><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
+			</div>
+		</div>
+	</div> <!-- End-Contack -->
+<!-- Begin footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-logo">
+				<h3><a href=""><img src="assets/images/logo.png"></a></h3>
+				<ul>
+					<li><i class="fa fa-phone footer-right" aria-hidden="true"></i>(04) 7308 2828</li>
+					<li><i class="fa fa-envelope footer-right" aria-hidden="true"></i>info@mik.vn </li>
+					<li><i class="fa fa-home footer-right" aria-hidden="true"></i>Tầng 6, Tòa nhà Hồng Hà Center, 25 Lý Thường kiệt, Hoàn kiếm , Hà nội</li>
+					<li>
+                        <form action="" method="post">
+                            <input class="footer-nav-input" type="email" placeholder="Vui lòng nhập Email của bạn" required="required"/>
+                            <button class="footer-nav-submit" type="submit" ><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+                        </form>
+               		</li>
+				</ul>
+			</div><!--  end footer logo -->
+
+			<div class="footer-logo-title">
+				<h3><a href="">CĂN HỘ CAO CẤP</a></h3>
+				<ul>
+					<li><a href="">Imperia Sky Garden</a></li>
+					<li><a href="">Imperia Garden</a></li>
+					<li><a href="">The Waterfront Saigon</a></li>
+					<li><a href="">Valencia Garden</a></li>
+				</ul>
+			</div> <!-- end footer-logo-title -->
+			<div class="footer-logo-title">
+				<h3><a href="#">VILAA & NHÀ PHỐ</a></h3>
+				<ul>
+					<li><a href="">Park Riverside - Q.9</a></li>
+					<li><a href="">Villa Park - Q.9</a></li>
+					<li><a href="">River Park - Q.9</a></li>
+					<li><a href="">Park Riverside - Q.9</a></li>
+					<li><a href="">Villa Park - Q.9</a></li>
+					<li><a href="">River Park - Q.9</a></li>
+				</ul>
+			</div>
+			<div class="footer-logo-title">
+				<h3><a href="#">KHÁCH SẠN</a></h3>
+				<ul>
+					<li><a href="">Crowne Plaza Phú Quốc Starbay</a></li>
+					<li><a href="">Villa Park - Q.9</a></li>
+				</ul>
+				<div class="box-footer">
+				<h3><a href="#">BẤT ĐỘNG SẢN NGHỈ  DƯỠNG</a></h3>
+				<ul>
+					<li><a href="">Crowne Plaza Phú Quốc Starbay</a></li>
+					<li><a href="">Villa Park - Q.9</a></li>
+				</ul>
+			</div>
+			</div>
+			<div class="footer-logo-nav">
+				<ul>
+					<li><a href="">Trang chủ</a></li>
+					<li><a href="">Giới thiệu</a></li>
+					<li><a href="">Dự án </a></li>
+					<li><a href="">Tin tức</a></li>
+					<li><a href="">Góc báo Chí</a></li>
+					<li><a href="">Thư viện</a></li>
+					<li><a href="">Liên hệ</a></li>
+				</ul>
+			</div>
+		</div> <!-- End container -->
+		<div class="footer-right">
+			<h4>© MIKGroup. All Rights Reserved</h4>
+		</div>
+	</div> <!-- End footer -->
+
+</div> <!-- end main -->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="number-info">
+	<div class="container">
+		<div class="number-info-inner">
+			<div class="number-info-item">
+				1
+			</div>
+			<div class="number-info-item">
+				2
+			</div>
+			<div class="number-info-item">
+				3
+			</div>
+			<div class="number-info-item">
+				4
+			</div>
+			<div class="number-info-item">
+				5
+			</div>
+		</div>
+	</div>
+</div>	
+
+<style>
+	.number-info-inner {
+		display: block;
+		margin: 0 auto;
+		width: calc((500%)/6);
+	}
+	.number-info-item {
+		float: left;
+		margin-right: 30px;
+		width: calc(20% - 24px);
+	}
+	.number-info-item:last-child {
+		margin-left: 0px;	
+	}
+</style> -->
+
